@@ -4,12 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "trustedDependencies": [
-    "esbuild",
-    "@esbuild/linux-x64",
-    "@esbuild/linux-arm64",
-    "@esbuild/darwin-arm64",
-    "@esbuild/darwin-x64",
-    "@esbuild/win32-x64"
+    "esbuild"
   ],
   "scripts": {
     "dev": "vite",
