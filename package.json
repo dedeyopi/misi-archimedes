@@ -3,10 +3,17 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-      "scripts": {
+  "trustedDependencies": [
+    "esbuild",
+    "@esbuild/linux-x64",
+    "@esbuild/linux-arm64",
+    "@esbuild/darwin-arm64",
+    "@esbuild/darwin-x64",
+    "@esbuild/win32-x64"
+  ],
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:netlify": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
